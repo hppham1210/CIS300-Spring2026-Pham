@@ -10,7 +10,7 @@
 </nav>
 
 <main>
-  <title>The Yurts at Pacific Trails</title>
+  <h2>The Yurts at Pacific Trails</h2>
 
   <dl>
     <dt><strong>What is a yurt?</strong></dt>
