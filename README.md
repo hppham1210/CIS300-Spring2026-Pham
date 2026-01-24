@@ -1,1 +1,5 @@
-
+<header>
+  <h1>
+    Pacific Trails Resort
+  </h1>
+</header>
