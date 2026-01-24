@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8,12 +8,16 @@
   <header>
     <h1>Pacific Trails Resort</h1>
   </header>
+
   <nav>
-    <a href="index.html">Home</a>
-    <a href="yurts.html">Yurts</a>
-    <a href="activities.html">Activities</a>
-    <a href="reservations.html">Reservations</a>
+    <b>
+      <a href="index.html">Home</a>&nbsp;&nbsp;
+      <a href="yurts.html">Yurts</a>&nbsp;&nbsp;
+      <a href="activities.html">Activities</a>&nbsp;&nbsp;
+      <a href="reservations.html">Reservations</a>
+    </b>
   </nav>
+
   <main>
     <h2>Enjoy Nature in Luxury</h2>
 
@@ -26,15 +30,20 @@
       <li>Explore the coast on your own or join our guided tours</li>
     </ul>
 
-    <p>Pacific Trails Resort<br>
-    12010 Pacific Trails Road<br>
-    Zephyr, CA 95555</p>
-
-    <p>888-555-5555</p>
+    <div>
+      Pacific Trails Resort<br>
+      12010 Pacific Trails Road<br>
+      Zephyr, CA 95555<br>
+      <br>
+      888-555-5555<br><br>
+    </div>
   </main>
+
   <footer>
-    <p>Copyright © 2022 Pacific Trails Resort<br>
-    yourfirstname@yourlastname.com</p>
+    <small><i>
+      Copyright © 2022 Pacific Trails Resort<br>
+      <a href="mailto:hppham@asu.edu">Huy Phuoc Pham</a>
+    </i></small>
   </footer>
 </body>
 </html>
