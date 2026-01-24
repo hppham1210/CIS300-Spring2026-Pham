@@ -10,12 +10,10 @@
   </header>
 
   <nav>
-    <b>
-      <a href="index.html">Home</a>&nbsp;&nbsp;
-      <a href="yurts.html">Yurts</a>&nbsp;&nbsp;
-      <a href="activities.html">Activities</a>&nbsp;&nbsp;
-      <a href="reservations.html">Reservations</a>
-    </b>
+    <a href="index.html">Home</a>
+    <a href="yurts.html">Yurts</a>
+    <a href="activities.html">Activities</a>
+    <a href="reservations.html">Reservations</a>
   </nav>
 
   <main>
@@ -30,20 +28,16 @@
       <li>Explore the coast on your own or join our guided tours</li>
     </ul>
 
-    <div>
-      Pacific Trails Resort<br>
-      12010 Pacific Trails Road<br>
-      Zephyr, CA 95555<br>
-      <br>
-      888-555-5555<br><br>
-    </div>
+    <p>Pacific Trails Resort<br>
+    12010 Pacific Trails Road<br>
+    Zephyr, CA 95555</p>
+
+    <p>888-555-5555</p>
   </main>
 
   <footer>
-    <small><i>
-      Copyright © 2022 Pacific Trails Resort<br>
-      <a href="mailto:hppham@asu.edu">Huy Phuoc Pham</a>
-    </i></small>
+    <p>Copyright © 2022 Pacific Trails Resort<br>
+    <a href="mailto:hppham@asu.edu">Huy Phuoc Pham</a></p>
   </footer>
 </body>
 </html>
