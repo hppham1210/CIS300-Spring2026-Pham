@@ -30,5 +30,5 @@
 </main>
 <footer>
   <small><i>Copyright © 2022 Pacific Trails Resort<br>
-  <a href="mailto:hppham@asu.edu">Huy Phuoc Pham</a></i></small>
+  <a href="mailto:hppham@asu.edu">Huy@Pham.com</a></i></small>
 </footer>
