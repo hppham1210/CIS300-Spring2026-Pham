@@ -28,3 +28,7 @@
     888-555-5555<br><br>
   </div>
 </main>
+<footer>
+  <small><i>Copyright © 2022 Pacific Trails Resort<br>
+  <a href="mailto:hppham@asu.edu">Huy Phuoc Pham</a></i></small>
+</footer>
