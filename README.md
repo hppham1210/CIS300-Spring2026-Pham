@@ -5,21 +5,22 @@
     <h1>Pacific Trails Resort</h1>
   </header>
   <nav>
-    <a href="index.html">Home</a>
+    <a href="Home.html">Home</a>
     <a href="yurts.html">Yurts</a>
     <a href="activities.html">Activities</a>
     <a href="reservations.html">Reservations</a>
   </nav>
   <main>
-    <h2>Enjoy Nature in Luxury</h2>
-
-    <p>Pacific Trails Resort offers a special lodging experience on the California North Coast with panoramic views of the Pacific Ocean. Your stay at Pacific Trails Resort includes a sumptuously appointed private yurt and a cooked-to-order breakfast each morning.</p>
-
+   Enjoy Nature in Luxury<
+                           
+    <p>Pacific Trails Resort offers a special lodging experience on the California North Coast 
+       with panoramic views of the Pacific Ocean. Your stay at Pacific Trails Resort includes a 
+       sumptuously appointed private yurt and a cooked-to-order breakfast each morning.</p>
     <ul>
-      Relax in our lodge while enjoying complimentary appetizers and beverages</li>
-      <li>Savor nightly fine dining with an ocean view</li>
-      <li>Unwind in the heated outdoor pool and whirlpool</li>
-      <li>Explore the coast on your own or join our guided tours</li>
+      Relax in our lodge while enjoying complimentary appetizers and beverages
+      Savor nightly fine dining with an ocean view
+      Unwind in the heated outdoor pool and whirlpool 
+      Explore the coast on your own or join our guided tours
     </ul>
 
     <p>Pacific Trails Resort<br>
