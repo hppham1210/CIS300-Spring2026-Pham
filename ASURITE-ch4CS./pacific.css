@@ -10,8 +10,14 @@ header {
     margin: 0;
 }
 
-nav {
-    background-color: #80BCCC;
+nav a {
+    text-decoration: none;
+    color: #000066;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFFFFF;
 }
 
 h1 {
