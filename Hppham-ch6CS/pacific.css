@@ -56,6 +56,12 @@ main h2 {
     font-family: Georgia, "Times New Roman", serif;
 }
 
+main h3 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+}
+
 /* CONTACT TEXT */
 #contact {
     font-size: 90%;
