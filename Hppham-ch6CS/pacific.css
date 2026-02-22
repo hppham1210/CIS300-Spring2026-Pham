@@ -1,3 +1,4 @@
+/* BODY BACKGROUND */
 body {
     background-color: #FFFFFF;
     background-image: linear-gradient(#FFFFFF, #6699CC);
@@ -5,6 +6,7 @@ body {
     color: #666666;
 }
 
+/* WRAPPER */
 #wrapper {
     width: 80%;
     max-width: 1024px;
@@ -13,6 +15,7 @@ body {
     background-color: #FFFFFF;
 }
 
+/* HEADER WITH SUNSET */
 header {
     background-color: #000033;
     background-image: url("sunset.jpg");
@@ -28,6 +31,7 @@ header h1 {
     color: #FFFFFF;
 }
 
+/* NAV BAR */
 nav {
     background-color: #FFFFFF;
     text-align: center;
@@ -41,6 +45,7 @@ nav a {
     font-weight: bold;
 }
 
+/* MAIN CONTENT */
 main {
     padding: 20px 40px 40px 40px;
 }
@@ -51,16 +56,19 @@ main h2 {
     font-family: Georgia, "Times New Roman", serif;
 }
 
+/* CONTACT TEXT */
 #contact {
     font-size: 90%;
 }
 
+/* FOOTER */
 footer {
     padding: 10px;
     text-align: center;
     font-size: 0.75em;
 }
 
+/* HERO IMAGE DIVS */
 #homehero,
 #yurthero,
 #trailhero {
