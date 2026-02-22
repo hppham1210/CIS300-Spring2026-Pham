@@ -18,7 +18,7 @@ body {
 /* HEADER WITH SUNSET */
 header {
     background-color: #000033;
-    background-image: url("sunset.jpg");
+    background-image: url("images/sunset.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     height: 120px;
@@ -78,6 +78,14 @@ footer {
     background-position: center;
 }
 
-#homehero { background-image: url("coast.jpg"); }
-#yurthero { background-image: url("yurt.jpg"); }
-#trailhero { background-image: url("trail.jpg"); }
+#homehero {
+    background-image: url("images/coast.jpg");
+}
+
+#yurthero {
+    background-image: url("images/yurt.jpg");
+}
+
+#trailhero {
+    background-image: url("images/trail.jpg");
+}
