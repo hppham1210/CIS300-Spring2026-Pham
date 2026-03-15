@@ -1,0 +1,98 @@
+/* BODY BACKGROUND */
+body {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(#FFFFFF, #6699CC);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+/* WRAPPER */
+#wrapper {
+    width: 80%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+/* HEADER WITH SUNSET */
+header {
+    background-color: #000033;
+    background-image: url("images/sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 120px;
+    padding-top: 20px;
+}
+
+header h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* NAV BAR */
+nav {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #000033;
+    font-weight: bold;
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 20px 40px 40px 40px;
+}
+
+main h2 {
+    color: #336699;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+main h3 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+/* CONTACT TEXT */
+#contact {
+    font-size: 90%;
+}
+
+/* FOOTER */
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+/* HERO IMAGE DIVS */
+#homehero,
+#yurthero,
+#trailhero {
+     width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#homehero {
+    background-image: url("images/coast.jpg");
+}
+
+#yurthero {
+    background-image: url("images/yurt.jpg");
+}
+
+#trailhero {
+    background-image: url("images/trail.jpg");
+}
