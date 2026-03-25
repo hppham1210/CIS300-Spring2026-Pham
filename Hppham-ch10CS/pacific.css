@@ -108,15 +108,13 @@ footer {
     background-image: url("images/trail.jpg");
 }
 
-/* ---- New table styles for Chapter 9 ---- */
-
 table {
     border: 2px solid #3399CC;
     border-collapse: collapse;
 }
 
-th,
-td {
+td,
+th {
     padding: 0.5em;
     border: 2px solid #3399CC;
 }
@@ -129,7 +127,7 @@ td {
     text-align: left;
 }
 
-tr:nth-of-type(odd) {
+tbody tr:nth-of-type(odd) {
     background-color: #F5FAFC;
 }
 
