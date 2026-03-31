@@ -53,7 +53,7 @@ header {
 
 .banner-right {
   flex: 1;
-  background-image: url("images/citybanner.jpg");
+  background-image: url("images/CityBanner.pdf");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ nav a.active {
 
 .hero {
   height: 380px;
-  background-image: url("images/diverselandscape.jpg");
+  background-image: url("images/diverselandscape.pdf");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
