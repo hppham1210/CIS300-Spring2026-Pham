@@ -1,0 +1,149 @@
+:root {
+    --text: #111827;
+    --background: #f6f3ea;
+    --primary: #2f6f4e;
+    --secondary: #e4d4b9;
+    --accent: #e38c3b;
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page background */
+body {
+    background: linear-gradient(to right, #d9e6f2, #7da2c9);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Main wrapper */
+#wrapper {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 900px;
+    margin: 20px auto;
+    background-color: var(--background);
+    border: 2px solid var(--primary);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+}
+
+header h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+/* Layout for nav + main */
+nav {
+    float: left;
+    width: 180px;
+    padding: 20px 15px;
+    background-color: var(--background);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+nav a.active {
+    color: #8b1e00;
+}
+
+/* Main content area */
+main {
+    margin-left: 180px;
+    background-color: var(--background);
+}
+
+/* Hero image */
+.hero {
+    height: 300px;
+    background-image: url("images/vietnam-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Content */
+.content {
+    padding: 30px 35px;
+}
+
+.content h2 {
+    color: #3d6899;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+/* Three-column section like the example */
+.home-grid {
+    margin-top: 35px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.home-grid section {
+    flex: 1;
+    min-width: 220px;
+}
+
+.home-grid h3 {
+    color: var(--text);
+    font-size: 1.9rem;
+    margin-bottom: 12px;
+}
+
+.home-grid p {
+    font-size: 1.05rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    padding: 20px;
+    color: #444;
+}
+
+/* Clear floats */
+#wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
