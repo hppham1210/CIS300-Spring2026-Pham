@@ -50,10 +50,11 @@ header {
 
 .banner-image {
   width: 30%;
-  background-image: url("Ho-Chi-Minh-City.jpg");
+  background-image: url("./Ho-Chi-Minh-City.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 120px;
 }
 
 nav {
@@ -86,7 +87,7 @@ nav a.active {
 
 .hero {
   height: 340px;
-  background-image: url("RiceCrop.jpg");
+  background-image: url("./RiceCrop.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
