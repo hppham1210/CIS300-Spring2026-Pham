@@ -26,7 +26,6 @@ body {
   border: 2px solid var(--primary);
 }
 
-/* Header */
 header {
   display: flex;
   min-height: 120px;
@@ -51,13 +50,12 @@ header {
 
 .banner-image {
   width: 30%;
-  background-image: url("images/Ho-Chi-Minh-City.jpg");
+  background-image: url("Ho-Chi-Minh-City.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* Navigation */
 nav {
   border-bottom: 2px solid var(--secondary);
 }
@@ -86,17 +84,15 @@ nav a.active {
   color: var(--accent);
 }
 
-/* Hero image */
 .hero {
   height: 340px;
-  background-image: url("images/RiceCrop.jpg");
+  background-image: url("RiceCrop.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-bottom: 2px solid var(--secondary);
 }
 
-/* Main content */
 .content {
   padding: 32px 28px;
 }
@@ -114,7 +110,6 @@ nav a.active {
   margin-bottom: 16px;
 }
 
-/* Three columns */
 .info-columns {
   display: flex;
   gap: 28px;
@@ -134,7 +129,6 @@ nav a.active {
   color: var(--text);
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -142,7 +136,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   header {
     flex-direction: column;
