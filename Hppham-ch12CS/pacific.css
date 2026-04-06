@@ -1,0 +1,231 @@
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(#ffffff, #6699cc);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #000033;
+    background-image: url("images/sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav {
+    text-align: center;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border-bottom: 1px solid #000066;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:link,
+nav a:visited {
+    color: #3366cc;
+}
+
+nav a:hover {
+    color: #8b0000;
+}
+
+main {
+    padding: 1em;
+}
+
+main h2 {
+    color: #336699;
+    text-shadow: 1px 1px 1px #cccccc;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+main h3 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+footer {
+    padding: 0.5em;
+    text-align: center;
+    font-size: 0.75em;
+    background-color: #ffffff;
+}
+
+/* HERO IMAGES */
+#homehero,
+#yurthero,
+#trailhero {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#homehero {
+    background-image: url("images/coast.jpg");
+}
+
+#yurthero {
+    background-image: url("images/yurt.jpg");
+}
+
+#trailhero {
+    background-image: url("images/trail.jpg");
+}
+
+/* ===================== */
+/* CHAPTER 9 TABLE STYLES */
+/* ===================== */
+
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
+
+/* ===================== */
+/* CHAPTER 10 FORM STYLES */
+/* ===================== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+input, textarea {
+    margin-bottom: 0.5em;
+}
+
+/* ===================== */
+/* MEDIA QUERY */
+/* ===================== */
+
+@media (min-width: 600px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav li {
+        border-bottom: none;
+    }
+
+    .flow {
+        display: flex;
+    }
+
+    section {
+        flex: 1;
+        margin: 0 2em;
+    }
+
+    /* FORM GRID */
+    form {
+        width: 60%;
+        max-width: 30em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em 1fr;
+    }
+
+    input[type="submit"] {
+        grid-column: 2 / 3;
+        width: 9em;
+    }
+}
+
+/* DESKTOP GRID */
+@media (min-width: 1024px) {
+
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid #000066;
+        box-shadow: 3px 3px 3px #000066;
+    }
+
+    nav {
+        text-align: left;
+        padding-left: 1em;
+    }
+
+    @supports (display: grid) {
+
+        nav ul {
+            flex-direction: column;
+            padding-top: 1em;
+        }
+
+        header { grid-area: header; }
+        nav { grid-area: nav; }
+        .hero { grid-area: hero; }
+        main { grid-area: main; }
+        footer { grid-area: footer; }
+
+        #wrapper {
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "nav    hero"
+                "nav    main"
+                "footer footer";
+            grid-template-columns: 180px 1fr;
+            grid-template-rows: auto auto 1fr auto;
+        }
+    }
+}
