@@ -45,6 +45,7 @@ nav a {
     padding: 0.5em 0;
     text-decoration: none;
     font-weight: bold;
+    transition: color 3s ease-out;
 }
 
 nav a:link,
@@ -109,10 +110,13 @@ footer {
     background-image: url("images/trail.jpg");
 }
 
-/* ===================== */
-/* CHAPTER 9 TABLE STYLES */
-/* ===================== */
+/* CHAPTER 11 VIDEO */
+video {
+    float: right;
+    margin: 1em;
+}
 
+/* CHAPTER 9 TABLE STYLES */
 table {
     border: 2px solid #3399CC;
     border-collapse: collapse;
@@ -135,10 +139,7 @@ tbody tr:nth-of-type(odd) {
     background-color: #F5FAFC;
 }
 
-/* ===================== */
 /* CHAPTER 10 FORM STYLES */
-/* ===================== */
-
 form {
     display: flex;
     flex-direction: column;
@@ -149,10 +150,7 @@ input, textarea {
     margin-bottom: 0.5em;
 }
 
-/* ===================== */
 /* MEDIA QUERY */
-/* ===================== */
-
 @media (min-width: 600px) {
 
     nav ul {
@@ -174,7 +172,6 @@ input, textarea {
         margin: 0 2em;
     }
 
-    /* FORM GRID */
     form {
         width: 60%;
         max-width: 30em;
