@@ -12,6 +12,7 @@ body {
 
 header {
     background-color: #000033;
+    background-image: url("images/sunset.jpg");
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -97,17 +98,16 @@ footer {
     background-position: center;
 }
 
-/* fallback backgrounds if image files are missing */
 #homehero {
-    background-image: linear-gradient(#0b87c9, #f2d19b);
+    background-image: url("images/coast.jpg");
 }
 
 #yurthero {
-    background-image: linear-gradient(#7db2d9, #d9c9a3);
+    background-image: url("images/yurt.jpg");
 }
 
 #trailhero {
-    background-image: linear-gradient(#5e8f62, #d6c59c);
+    background-image: url("images/trail.jpg");
 }
 
 /* CHAPTER 11 VIDEO */
