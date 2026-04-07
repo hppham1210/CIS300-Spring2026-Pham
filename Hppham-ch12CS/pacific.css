@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #000033;
-    background-image: url("images/sunset.jpg");
+    background-image: url("sunset.jpg");
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -99,15 +99,15 @@ footer {
 }
 
 #homehero {
-    background-image: url("images/coast.jpg");
+    background-image: url("coast.jpg");
 }
 
 #yurthero {
-    background-image: url("images/yurt.jpg");
+    background-image: url("yurt.jpg");
 }
 
 #trailhero {
-    background-image: url("images/trail.jpg");
+    background-image: url("trail.jpg");
 }
 
 /* CHAPTER 11 VIDEO */
